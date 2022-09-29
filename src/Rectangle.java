@@ -23,7 +23,8 @@ public class Rectangle
 
     // method that calculates and returns volume
     // of a box with length, width, and height
-    public double calculateBoxVolume(double height) {
+    public double calculateBoxVolume(double height)
+    {
         return calculateArea() * height;
     }
 
